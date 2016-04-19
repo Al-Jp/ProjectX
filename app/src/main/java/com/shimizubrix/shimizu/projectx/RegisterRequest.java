@@ -10,7 +10,7 @@ import java.util.HashMap;
  * Created by shimizu on 4/18/16.
  */
 public class RegisterRequest extends StringRequest {
-    private static final String REGISTER_REQUEST_URL = "";
+    private static final String REGISTER_REQUEST_URL = "http://shimigiran.comli.com/user_register.php";
     private Map<String, String> params;
 
     public RegisterRequest(String firstName, String lastName, String email, String username, String password, Response.Listener<String> listener) {
